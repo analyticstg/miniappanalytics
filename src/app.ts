@@ -62,6 +62,7 @@ export class App {
         return Boolean(userData?.is_premium);
     }
 
+    // обычно свойства определяют сверху
     private sessionController: SessionController;
     private networkController: NetworkController;
     private analyticsController: AnalyticsController;

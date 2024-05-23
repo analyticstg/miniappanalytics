@@ -45,6 +45,8 @@ export class SessionController {
         return this.userData;
     }
 
+    // все эти свойства только читаются - можно сделать их readonly
+    // и убрать все методы - меньше кода на клиенте
     private sessionId: string;
     private userId: number;
     private userData: WebAppUser;
@@ -52,5 +54,6 @@ export class SessionController {
     private webAppStartParam: string;
     private userLocale: string;
 
+    // судя по всему не используется
     private appModule: App;
 }
