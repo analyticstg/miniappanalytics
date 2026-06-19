@@ -28,22 +28,16 @@
   "devDependencies": {
     "@twa-dev/types": "^7.0.0",
     "@types/es6-promise": "^3.3.0",
+    "http-server": "14.1.1",
     "javascript-obfuscator": "^4.1.1",
     "terser": "^5.31.0",
     "typescript": "^5.4.5",
     "vite": "^5.2.12",
     "vite-plugin-dts": "^4.2.1",
     "vite-plugin-javascript-obfuscator": "^3.1.0",
-    "vite-plugin-static-copy": "^1.0.6",
-    "vite-tsconfig-paths": "^5.0.1",
-    "wasm-pack": "^0.13.1"
+    "vite-tsconfig-paths": "^5.0.1"
   },
-  "dependencies": {
-    "@innerworks-me/iw-auth-sdk": "^1.9.1",
-    "@telegram-apps/sdk": "^3.9.2",
-    "@tonconnect/ui": "2.0.5",
-    "http-server": "14.1.1"
-  },
+  "dependencies": {},
   "resolutions": {
     "@types/node": "18.11.9"
   },
